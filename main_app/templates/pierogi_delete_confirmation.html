@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Pierogi{% endblock %}
+
+{% block content %}
+<h1>Are you sure you want to delete? There's no going back!</h1>
+<div class="card">
+    <img src={{pierogi.image}} alt={{pierogi.filling}}>
+</div>
+<form method="post">
+    {% csrf_token %}
+    <div class="buttons">
+        <input type="submit" value="Confirm" />
+        <a class="button is-primary" href="{% url 'pierogi_detail' pierogi.pk %}">Go back</a>
+    </div>
+</form>
+{% endblock %}

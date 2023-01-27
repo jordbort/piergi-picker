@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Pierogi{% endblock %}
+
+{% block content %}
+<h1>{{pierogi.method}} pierogi with {{pierogi.filling}}</h1>
+<div class="card">
+    <img src={{pierogi.image}} alt={{pierogi.filling}}>
+</div>
+<a href="{% url 'pierogi_edit' pierogi.pk %}"><button>Edit</button></a>
+<a href="{% url 'pierogi_delete' pierogi.pk %}"><button>Delete</button></a>
+{% endblock %}

@@ -1,0 +1,67 @@
+body {
+  font-family: sans-serif;
+  background-color: #d4d497;
+  margin: 64px 20%;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 16px;
+  font-weight: 600;
+  background-color: #e0e0a9;
+}
+nav a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+.pierogi-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 32px 0;
+}
+
+.card {
+  border: 2px solid #000000;
+  background-color: #e0e0a9;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 240px;
+  height: 100%;
+  margin: 0;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.card p {
+  padding: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #2b2ba4;
+}
+
+@media (orientation: portrait), (max-width: 1015px) {
+  body {
+    margin: 64px 0;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

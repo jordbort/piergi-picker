@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block title %}Pierogi{% endblock %}
+
+{% block content %}
+<form method="get">
+    <div>
+        <div>
+            <input type="text" name="filling" placeholder="Search by filling" />
+        </div>
+        <div>
+            <input type="submit" value="Search" />
+        </div>
+    </div>
+    <a href="{% url 'all_pierogi' %}"><button>Clear Search</button></a>
+</form>
+
+<div>
+    <h1>{{header}}</h1>
+    <a href="{% url 'pierogi_create' %}">Add Pierogi</a>
+</div>
+<div class="pierogi-container">
+    {% for pierog in pierogi %}
+    <a href="{% url 'pierogi_detail' pierog.pk %}">
+        <div class="card">
+            <img src={{pierog.image}} alt={{pierog.filling}}>
+            <p>{{pierog.method}} pierogi with {{pierog.filling}}</p>
+        </div>
+    </a>
+    {% empty %}
+    <p>No results found 🥟💔</p>
+    {% endfor %}
+</div>
+{% endblock %}

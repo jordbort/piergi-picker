@@ -1,0 +1,10 @@
+INSERT INTO main_app_pierogi(method, filling, image) VALUES ('boiled','potato','https://www.seriouseats.com/thmb/jcnObIrZTVI8pswXwYsTYh0GN4U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20220303-pierogi-vicky-wasik-51-c84f489492894dddb2fe1700970c0a3a.jpg');
+INSERT INTO main_app_pierogi(method, filling, image) VALUES ('boiled','potato and mushroom','https://www.seriouseats.com/thmb/jcnObIrZTVI8pswXwYsTYh0GN4U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20220303-pierogi-vicky-wasik-51-c84f489492894dddb2fe1700970c0a3a.jpg');
+INSERT INTO main_app_pierogi(method, filling, image) VALUES ('boiled','potato and spinach','https://www.seriouseats.com/thmb/jcnObIrZTVI8pswXwYsTYh0GN4U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20220303-pierogi-vicky-wasik-51-c84f489492894dddb2fe1700970c0a3a.jpg');
+INSERT INTO main_app_pierogi(method, filling, image) VALUES ('boiled','meat and cabbage','https://www.seriouseats.com/thmb/jcnObIrZTVI8pswXwYsTYh0GN4U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20220303-pierogi-vicky-wasik-51-c84f489492894dddb2fe1700970c0a3a.jpg');
+INSERT INTO main_app_pierogi(method, filling, image) VALUES ('boiled','cheese','https://www.seriouseats.com/thmb/jcnObIrZTVI8pswXwYsTYh0GN4U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20220303-pierogi-vicky-wasik-51-c84f489492894dddb2fe1700970c0a3a.jpg');
+INSERT INTO main_app_pierogi(method, filling, image) VALUES ('fried','potato','https://i.ytimg.com/vi/Di4AL0dKlZU/maxresdefault.jpg');
+INSERT INTO main_app_pierogi(method, filling, image) VALUES ('fried','potato and mushroom','https://i.ytimg.com/vi/Di4AL0dKlZU/maxresdefault.jpg');
+INSERT INTO main_app_pierogi(method, filling, image) VALUES ('fried','potato and spinach','https://i.ytimg.com/vi/Di4AL0dKlZU/maxresdefault.jpg');
+INSERT INTO main_app_pierogi(method, filling, image) VALUES ('fried','meat and cabbage','https://i.ytimg.com/vi/Di4AL0dKlZU/maxresdefault.jpg');
+INSERT INTO main_app_pierogi(method, filling, image) VALUES ('fried','cheese','https://i.ytimg.com/vi/Di4AL0dKlZU/maxresdefault.jpg');
